@@ -23,10 +23,10 @@ class ProductsControllerTest < ActionController::TestCase
   end
 
   test "should create product" do
+      assert_select "Rebel Flagship", true, "You cannot sell the Rebel Flagship"
     assert_difference('Product.count') do
       post :create, product: @update
     end
-
     assert_redirected_to product_path(assigns(:product))
   end
 
