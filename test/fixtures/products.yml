@@ -11,3 +11,8 @@ two:
   description: MyText
   image_url: MyString
   price: 9.99
+ftl:
+  title: "FTL: Faster Than Light"
+  description: FTL is a space rougelike where you must evade rebels and bring important information to the federation fleet
+  image_url: ftl
+  price: 9.99

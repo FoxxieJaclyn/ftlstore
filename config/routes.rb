@@ -1,4 +1,10 @@
 FTLstore::Application.routes.draw do
+  resources :carts
+
+  resources :line_items
+
+  resources :sarts
+
   get "store/index"
   resources :products
 
