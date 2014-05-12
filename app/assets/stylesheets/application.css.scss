@@ -1,9 +1,9 @@
 .ftl_form {
 	fieldset {
-		background: #ef3;
+		background: #275;
 		legend {
 			color: #dfd;
-			background: #141;
+			background: #278;
 			font-family: Times;
 			padding: 0.2em 1em;
 		}
@@ -29,11 +29,11 @@
 	}
 }
 #banner {
-	background: #9c9;
+	background: #278;
 	padding: 10px;
 	border-bottom: 2px solid;
 	font: small-caps 40px/40px Verdania, sans-serif;
-	color: #282;
+	color: #23;
 	text-align: center;
 	img {
 		float: left;
@@ -48,7 +48,7 @@
 	font: bold smaller Verdania;
 }
 #columns {
-	background: #141;
+	background: #278;
 	#main {
 		margin-left: 17em;
 		padding: 1em;
@@ -58,7 +58,7 @@
 		float: left;
 		padding: 1em 2em;
 		width: 13em;
-		background: #141;
+		background: #278;
 		form, div {
 			display: inline;
 		}
@@ -69,8 +69,8 @@
 			font-size: smaller;
 			color: white;
 			table {
-				border-top: 1px dotted #595;
-				border-bottom: 1px dotted #595;
+				border-top: 1px ridge #595;
+				border-bottom: 1px ridge #595;
 				margin-bottom: 10px;
 			}
 		}
